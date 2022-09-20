@@ -1,0 +1,12 @@
+.header{
+ background-color: blue;
+display: flex;
+padding: 20px;
+}
+
+.imagen-365{
+    display:flex ;
+flex-wrap: wrap;
+justify-content: center;
+
+}
