@@ -4,18 +4,35 @@
     box-sizing: border-box;
 }
 
-
+body{
+  background-color: hwb(0 5% 31%)(176, 12, 12);
+}
 header{
- background-color:blue;
+ background-color:gold;
 display: flex;
 padding: 20px;
-justify-content: center;
-flex-flow: wrap;
+justify-content: space-around;
 }
 
 .carousel-inner img {
     margin: auto;
 }
+
+body nav div {
+ display: flex;
+ justify-content: center;
+}
+body div ul li{
+    font-weight: bold;
+    transition: 1s;
+}
+
+body div ul li:hover{
+    background-color: yellow;
+} 
+
+
+
 
 .imagen-365{
     display:flex ;
