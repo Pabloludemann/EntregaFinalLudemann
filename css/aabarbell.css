@@ -13,22 +13,40 @@ display: flex;
 padding: 20px;
 justify-content: space-around;
 }
-
+header h1{
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: bounce;
+    animation-duration: 2s;
+}
 .carousel-inner img {
     margin: auto;
 }
 
-body nav div {
+body header div h1{
+    display: flex;
+}
+body header div button{
+    display: none;
+}
+
+body nav div div {
  display: flex;
+ list-style: none;
+ gap: 2rem ;
  justify-content: center;
 }
 body div ul li{
     font-weight: bold;
-    transition: 1s;
+    list-style: none;
+    justify-content: center;
 }
 
 body div ul li:hover{
     background-color: yellow;
+    transform: scale(0.9);
+    box-shadow: 1px 1px 3px goldenrod;
+    transition: 1s;
 } 
 
 
