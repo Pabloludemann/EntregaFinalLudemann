@@ -5,11 +5,16 @@
 }
 
 
-.header{
+header{
  background-color:blue;
 display: flex;
 padding: 20px;
+justify-content: center;
+flex-flow: wrap;
+}
 
+.carousel-inner img {
+    margin: auto;
 }
 
 .imagen-365{
