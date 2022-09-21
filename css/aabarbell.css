@@ -5,9 +5,10 @@
 }
 
 body{
-  background-color: hwb(0 5% 31%)(176, 12, 12);
-}
-header{
+    background-image: url("../imagenes.pagina/fondo-black.jpg");
+    }
+
+    header{
  background-color:gold;
 display: flex;
 padding: 20px;
@@ -26,6 +27,7 @@ h2{
 }
 .carousel-inner img {
     margin: auto;
+    
 }
 
 body header div h1{
@@ -53,6 +55,7 @@ body div ul li:hover{
     box-shadow: 1px 1px 3px goldenrod;
     transition: 1s;
 } 
+
 
 
 
