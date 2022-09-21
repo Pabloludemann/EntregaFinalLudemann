@@ -19,6 +19,11 @@ header h1{
     animation: bounce;
     animation-duration: 2s;
 }
+h2{
+    margin: 30px;
+    padding: 30px;
+    background-color: gold;
+}
 .carousel-inner img {
     margin: auto;
 }
@@ -52,9 +57,4 @@ body div ul li:hover{
 
 
 
-.imagen-365{
-    display:flex ;
-flex-wrap: wrap;
-justify-content: center;
 
-}
