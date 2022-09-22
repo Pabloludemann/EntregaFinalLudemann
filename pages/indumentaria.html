@@ -6,52 +6,144 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- link css bootstrap -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <!--link css propio-->
+    <!--link animaciones-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+   <!--link css propio-->
     <link rel="stylesheet" href="../css/aabarbell.css">
     
     <title>Indumentaria</title>
 
 </head>
 <body>
+   
     <header>
-        <h1>Barbell Suplementos</h1>
-    </header>
-
+        <div>
+           <h1 class="animate__bounceInRight">Barbell Suplementos</h1>
+        </div>
+    
     <!--lista superior-->
-    <ul>
-        <li>Ofertas</li>
-        <li><a href="../pages/contacto.html">Contacto</a></li>
-        <li>Nosotros</li>
-    </ul>
-    <!--lista del medio-->
-    <ul>
-        <li><a href="../index-inicio.html">Inicio</a></li>
-        <li><a href="../pages/suplementos.html">Suplementos</a></li>
-        <li><a href="../pages/accesorios.html">Accesorios</a></li>
-        <li><a href="../pages/indumentaria.html">Indumentaria</a></li><!--Donde estamos-->
-        <li>Mas vendidos</li>
-        <li>Ofertas</li>
-    </ul>
-    <!--menu interno de indumentaria-->
-    <ul>
-        <li>Toda la indumentaria</li>
-        <li>Hoodies</li>
-        <li>Remeras</li>
-        <li>Shorts</li>
-        <li>Musculosas</li><!--segun el wireframe es en la pestaña que estamos situados-->
-        <li>Ver mas</li>
-    </ul>
-    <!--Imagenes a usar-->
-    <img src="../imagenes.pagina/musculosa.invictus.1.jpeg" alt="Musculosa Invts roja">
-    <img src="../imagenes.pagina/musculosa.invictus.2.jpeg" alt="Musculosa invts verde">
-    <img src="../imagenes.pagina/musculosa.invictus.3.jpeg" alt="Musculosa builder negra">
-    <img src="../imagenes.pagina/musculosa.invictus.4.jpeg" alt="Musculosa builder roja">
-    <img src="../imagenes.pagina/remera.fuark.negra.jpg" alt="Remera fuark negra">
-    <img src="../imagenes.pagina/remera.fuark.verde.jpg" alt="Remera fuark verde">
 
+ <nav class="navbar navbar-expand-lg bg-transparent">
+  <div>
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Ofertas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#">Nosotros</a>
+            </a>
+          <li class="nav-item">
+            <a class="nav-link " href="contacto.html">Contacto</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-3" type="search" placeholder="Buscar en Barbell" aria-label="Search">
+          <button class="btn btn-outline-dark" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  </nav>
+</header>
+   
+   <!--menu del medio-->
+   <nav class="navbar navbar-expand-lg bg-dark" >
+    <div class="container-fluid">
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        
+       </button>
+       <div class="collapse navbar-collapse" id="navbarNav">
+         <ul class="navbar-nav">
+           <li class="nav-item">
+             <a class="nav-link active text-white" aria-current="page" href="../index-inicio.html">Home</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link text-white" href="suplementos.html">Suplementos</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link text-white" href="accesorios.html">Accesorios</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link text-white" href="indumentaria.html">Indumentaria</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link text-white" href="#">Mas vendidos</a>
+         </ul>
+       </div>
+     </div>
+   </nav>
+   
+   <!--Menu interno indumentaria-->
+   <nav class="navbar navbar-expand-lg bg-transparent">
+    <div class="container-fluid">
+      <button class="navbar-toggler bg-warning" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Menu indumentaria</a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item active bg-warning" href="#">Musculosas</a></li>
+              <li><a class="dropdown-item " href="#">Remeras</a></li>
+              <li><a class="dropdown-item " href="#">Shorts</a></li>
+              <li><a class="dropdown-item " href="#">Hoodies</a></li>
+              <li><a class="dropdown-item " href="#">Calzas</a></li>
+              <li><a class="dropdown-item " href="#">Tops</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<main>
+    <!--inventario de la pagina-->
 
-    <footer>Barbell suplementos. Todos los derechos reservados.</footer>
+    <div class="card" style="width: 18rem;">
+        <img src="../imagenes.pagina/musculosa.invictus.1.jpeg" class="card-img-top" alt="INVTS">
+        <div class="card-body text-center">
+          <h5 class="card-title">INVTS BUILDER REDBOARD</h5>
+          <p class="card-text">$99.999</p>
+          <a href="#" class="btn btn-primary bg-success">Agregar al carrito</a>
+        </div>
+      </div>
 
+      <div class="card" style="width: 18rem;">
+        <img src="../imagenes.pagina/musculosa.invictus.2.jpeg" class="card-img-top" alt="INVTS2">
+        <div class="card-body text-center">
+          <h5 class="card-title">INVTS BUILDER GREEN</h5>
+          <p class="card-text">$99.999</p>
+          <a href="#" class="btn btn-primary bg-success">Agregar al carrito</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="../imagenes.pagina/musculosa.invictus.3.jpeg" class="card-img-top" alt="INVTS3">
+        <div class="card-body text-center">
+          <h5 class="card-title">INVICTUS PRIMATE BLACK</h5>
+          <p class="card-text">$99.999</p>
+          <a href="#" class="btn btn-primary bg-success">Agregar al carrito</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="../imagenes.pagina/musculosa.invictus.4.jpeg" class="card-img-top" alt="INVTS4">
+        <div class="card-body text-center">
+          <h5 class="card-title">BUILDER PRIMATE REDBOARD</h5>
+          <p class="card-text">$99.999</p>
+          <a href="#" class="btn btn-primary bg-success">Agregar al carrito</a>
+        </div>
+      </div>
+
+</main>
+   
+
+<footer class="text-center bg-warning text-dark">2022. Barbell suplementos. Todos los derechos reservados.</footer>
     <!-- link bootstrap JavaScript -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
