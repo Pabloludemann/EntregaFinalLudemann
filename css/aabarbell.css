@@ -55,8 +55,21 @@ body div ul li:hover{
     box-shadow: 1px 1px 3px goldenrod;
     transition: 1s;
 } 
+section div {
+    
+    display: block;
+    display: grid;
+    justify-content: center;
+    padding: 1rem;
+    margin: 1rem;
+    }
 
+    section div div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
+    }
 
 
 
