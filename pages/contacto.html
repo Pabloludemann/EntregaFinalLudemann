@@ -22,9 +22,9 @@
     
     <!--lista superior-->
 
-<nav class="navbar navbar-expand-lg bg-transparent">
-  <div>
-    <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg bg-transparent">
+      <div>
+      <div class="container-fluid">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -80,26 +80,34 @@
   </div>
  </nav>
 <!-- Encabezado contacto-->
-    <h2>Contacto</h2>
+  <div>
+      <h2 class="text-center">Contacto</h2>
+  </div>
+    
     <div class="text-center text-warning">
-    <p> <h3>Podes encontrarnos en la ciudad de Corrientes en: Peatonal Junin 1111</h3></p>
-    
-    <!--ubicacion de google-->
+    <p><h3>Podes encontrarnos en la ciudad de Corrientes en: Peatonal Junin 1111</h3></p>
+   <!--ubicacion de google-->
      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d885.0132172119093!2d-58.83501806138913!3d-27.46761338768526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94456ca3f85103cd%3A0x1038c79f2cfbe567!2sJunin%201226%2C%20W3400AVZ%20Corrientes!5e0!3m2!1ses!2sar!4v1661633670818!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    
    </div>
+   
    <!-- texto e input -->
    <h4 class="text-center text-white">Registrate para recibir todas las novedades, ingresos y promociones!</h4>
 
-    <section>
+
+    <section class="">
       <form class="container text-center bg-dark">
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label text-white">Direccion de email</label>
-          <input type="email" class="form-control text-white" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <input type="email" class="form-control-lg text-dark" id="exampleInputEmail1" aria-describedby="emailHelp">
         </div>
         <div class="mb-3">
           <label for="exampleInputPassword1" class="form-label text-white">Contraseña</label>
-          <input type="password" class="form-control text-white" id="exampleInputPassword1">
+          <input type="password" class="form-control-lg text-dark" id="exampleInputPassword1">
+        </div>
+        <!--<div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label text-white">Contraseña</label>
+          <input type="password" class="form-control-sm text-dark" id="exampleInputPassword1">
+        -->
           <div id="emailHelp" class="form-text text-danger">Te recomendamos no compartir tu clave.</div>
         </div>
         <div class="mb-3 form-check">
@@ -110,9 +118,14 @@
         <button type="submit" class="btn btn-primary bg-light text-dark">No tienes cuenta?</button>
       </form>
      </section>
+     
      <!--Main con informacion importante del negocio, envios y horarios de atencion-->
     <main>
-      <p>texto a completar con informacion de contacto, envio y horarios de atencion</p> 
+      <div class="text-white text-center ">
+      <p>Horario de atencion: Lunes a sábados 9:00-12:30 / 17:00-21:00</p>
+      <p>Envios en la ciudad sin cargo en compras mayores a $3500. Envios a todo el pais via Andreani</p> 
+      </div>
+    
     </main>
 
      <footer class="text-center bg-warning text-dark">2022. Barbell suplementos. Todos los derechos reservados.</footer>
