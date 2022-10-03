@@ -10,9 +10,9 @@ body{
 
     header{
  background-color:gold;
-display: flex;
-padding: 20px;
-justify-content: space-around;
+ display: flex;
+ padding: 20px;
+ justify-content: space-around;
 }
   header h1{
     display: inline-block;
@@ -31,19 +31,24 @@ div h2{
     margin: auto;
     
 }
-
+/*menu interno indumentaria*/
 body nav div div {
  display: flex;
  list-style: none;
  gap: 2rem ;
  justify-content: center;
 }
-body div ul li{
+nav nav div{
+
+}
+/*body div ul li{
     font-weight: bold;
     list-style: none;
     justify-content: center;
-}
+}*/
 
+
+/*lista del medio*/
 body div ul li:hover{
     background-color: yellow;
     transform: scale(0.9);
@@ -58,15 +63,17 @@ section div {
     padding: 1rem;
     margin: 1rem;
     }
-section div div{
+/*section div div{
     display: flex;
     flex-direction: column;
     align-items: center;
-    }
+    }*/
 
 
-/*input pestaña contacto*/
-
-section form div{
-    
+/* menu interno suplementos*/
+div button{
+    display: flex;
+    list-style: none;
+    gap: 2rem ;
+    justify-content: center;
 }
