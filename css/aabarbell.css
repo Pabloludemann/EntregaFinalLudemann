@@ -4,72 +4,139 @@
     box-sizing: border-box;
 }
 
-body{
+ body{
     background-image: url("../imagenes.pagina/fondo-black.jpg");
     }
-
-    header{
- background-color:gold;
-display: flex;
-padding: 20px;
-justify-content: space-around;
+    /*header*/
+ header{
+  background-color:gold;
+ display: flex;
+ padding: 20px;
+ justify-content: space-around;
 }
+/* Animacion header*/
 header h1{
     display: inline-block;
     margin: 0 0.5rem;
     animation: bounce;
     animation-duration: 2s;
 }
+/* Encabezado pestaña Contacto*/
 h2{
     margin: 30px;
     padding: 30px;
     background-color: gold;
 }
+
+/*carousel de inicio*/
 .carousel-inner img {
     margin: auto;
-    
 }
-
+/*
 body header div h1{
     display: flex;
-}
+}*/
+/* mq boton menu superior en pantallas pequeñas*/
 body header div button{
     display: none;
 }
 
+/* menu del medio*/
 body nav div div {
  display: flex;
  list-style: none;
  gap: 2rem ;
  justify-content: center;
 }
+/*
 body div ul li{
     font-weight: bold;
     list-style: none;
     justify-content: center;
-}
+}*/
 
 body div ul li:hover{
     background-color: yellow;
     transform: scale(0.9);
     box-shadow: 1px 1px 3px goldenrod;
     transition: 1s;
-} 
-section div {
+}
+/* imagenes indumentaria*/ 
+/*.cards{
     flex-wrap: wrap;
     display: block;
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+    margin: 5rem;
+
+}
+.cards div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+*/
+
+ section div {
+    flex-wrap: wrap;
     display: flex;
     justify-content: center;
     padding: 1rem;
     margin: 1rem;
     }
 
-    section div div{
+/*section div div{
         display: flex;
         flex-direction: column;
         align-items: center;
 
+    }*/
+
+
+    /*input contacto manual
+    .input-contacto{
+        display: flex;
+        background-color: black;
+        width: 45%;
+        height: 100%;
+        margin: 1rem auto 0 auto;
+        padding-left: 6px;
+        padding-right: 6px;
+        justify-content: center;
+        border-radius: 1.5rem;
+        border: 1px solid gold;
     }
+
+    .contenedor-contacto button{
+        justify-content: center;
+    }
+
+    .input-contacto{
+        text-align: center;
+        filter: blur(5px 5px gold);
+        margin-bottom: 0.5rem;
+    }
+    fieldset{
+        border: none;
+    }
+    form{
+        padding: 10px 5px;
+        box-sizing: border-box;
+    }
+    .input-contacto{
+        box-sizing: border-box;
+        margin-bottom: 0.3rem;
+
+    }
+   .botones{
+    align-items: center;
+    padding-right: 2rem;
+    
+   }*/
+   
 
 
 
