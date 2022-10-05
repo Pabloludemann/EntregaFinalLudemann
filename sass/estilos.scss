@@ -1,0 +1,72 @@
+@import "utilities/variables";
+@import "utilities/mixin";
+@import "utilities/extend";
+
+
+
+header{
+    @extend %flex;
+    background-color: $color-principal;
+    padding: $medida-general - 10px;
+}
+
+body nav div div {
+    @extend %flex;
+    list-style: none;
+    gap: 2rem ;
+
+   }
+/*animacion botones*/
+   body div ul li:hover{
+    background-color: $color-principal;
+    transform: scale(0.9);
+    box-shadow: 1px 1px 3px goldenrod;
+    transition: 1s;}
+
+    /*cards de inventario*/
+ section div {
+    @extend %flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    margin: 1rem;
+
+    }
+
+section div div{
+       
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+   /*subtitulos pestañas*/
+
+   .subtitulos-h2{
+    @include subtitulos }
+    
+/*estilos footer*/
+   footer{
+    @extend %flex;
+    background-color: $color-secundario;
+    
+}
+
+/*imagen fondo*/
+body{
+    background-image: url("../imagenes.pagina/fondo-black.jpg");
+    }
+    
+/* Animacion header*/
+header h1{
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation:fadeInDown;
+    animation-duration: 2s;
+}
+ 
+/*carousel de inicio*/
+.carousel-inner img {
+    margin: auto;
+}
+   
+
