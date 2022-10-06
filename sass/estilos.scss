@@ -68,7 +68,11 @@ header h1{
     animation:fadeInDown;
     animation-duration: 2s;
 }
- 
+/*boton ingreso cuenta*/
+ .boton-ingreso-cuenta{
+    padding: 1rem;
+    align-items: flex-end;
+ }
 /*carousel de inicio*/
 .carousel-inner img {
     margin: auto;

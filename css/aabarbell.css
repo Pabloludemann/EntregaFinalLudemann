@@ -4,9 +4,9 @@ header, body nav div div, section div, footer {
   justify-content: center; }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
 header {
   background-color: gold;
@@ -54,6 +54,11 @@ header h1 {
   margin: 0 0.5rem;
   animation: fadeInDown;
   animation-duration: 2s; }
+
+/*boton ingreso cuenta*/
+.boton-ingreso-cuenta {
+  padding: 1rem;
+  align-items: flex-end; }
 
 /*carousel de inicio*/
 .carousel-inner img {
