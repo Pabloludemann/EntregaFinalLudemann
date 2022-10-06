@@ -3,6 +3,11 @@
 @import "utilities/extend";
 
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 header{
     @extend %flex;
@@ -67,6 +72,11 @@ header h1{
 /*carousel de inicio*/
 .carousel-inner img {
     margin: auto;
+    
 }
-   
+/*mq boton menu superior en pantallas pequeñas*/
+body header div button{
+    display: none;
+}
+
 

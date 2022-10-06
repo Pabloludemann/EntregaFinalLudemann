@@ -3,6 +3,11 @@ header, body nav div div, section div, footer {
   display: flex;
   justify-content: center; }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; }
+
 header {
   background-color: gold;
   padding: 20px; }
@@ -53,3 +58,7 @@ header h1 {
 /*carousel de inicio*/
 .carousel-inner img {
   margin: auto; }
+
+/*mq boton menu superior en pantallas pequeñas*/
+body header div button {
+  display: none; }
